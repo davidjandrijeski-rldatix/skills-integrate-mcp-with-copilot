@@ -198,3 +198,22 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#search-input, #category-filter, #sort-select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+#search-input {
+  flex: 1;
+  min-width: 120px;
+}
